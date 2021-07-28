@@ -1,1 +1,4 @@
-# yep
+Greetings, friend.
+I've made use of the almighty trio, html, css and js to code this site to basically have a bunch of input forms that act as counter boxes, including mighty animations. 
+In every UFC bout, there's this factor that determines who overpowered who in each round, and that's the amount of significant strikes landed on their respective opponent that they share the ring with. You should've guessed it by now. All I've coded this site to do is count the number of significant strikes landed by either of the fighter in each round (a total of three rounds) so that it's a litle easier on our tiny little brains to keep manual track of every punch and kick landed. May the better competitor win.
+Oh also, the icons and headers in the site lead to the actual UFC homepage and the respective headers' pages. :D
