@@ -1,0 +1,146 @@
+<html>
+    <head>
+    <title> UFC Fight Night</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/34363b6bf4.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+    <div class="main">
+        <nav>
+        <div class="logo">
+            <a href="https://www.ufc.com/"> 
+                <img src="img/ufclogo3.jpg" alt="UFC Homepage"> </a>
+        </div> 
+        <div class="links">
+            <ul>
+                <li style="font-family: 'Russo One', sans-serif; font-weight: 500;"><a href="https://www.ufc.com/watch/library">Videos</a></li>
+                <li style="font-family: 'Russo One', sans-serif; font-weight: 500;"><a href="https://www.ufc.com/newsletter">Connect</a></li>
+                <li style="font-family: 'Russo One', sans-serif; font-weight: 500;"><a href="https://ufcstore.com/?utm_source=ufccom&utm_medium=header&utm_campaign=NA">Merch</a></li>
+                <li style="font-family: 'Russo One', sans-serif; font-weight: 500;"><a href="https://www.ufc.com/events"> Pay-Per-View</a></li>
+            </ul>
+            </div> </nav> 
+        <div class="pics">
+            <div class="conor">
+              <img src="img/mcg.png" alt="Conor McGregor" width="500", height="650">
+            </div>
+            <div class="dustin">
+              <img src="img/dustin-poirier.png" alt="Dustin Poirier" height="620">
+            </div>
+        </div>
+    </div>
+    <div class="next">
+         <div>
+              <h1 style="position: absolute; top: 780px; left: 167px; font-family: 'Russo One', sans-serif; font-weight: 400"> SIGNIFICANT STRIKES </h1>
+         </div>
+        <div>
+              <h1 style="position: absolute; top:780px; right: 132px; font-family: 'Russo One', sans-serif; font-weight: 400"> SIGNIFICANT STRIKES</h1>
+        </div>
+        <div>
+           <i class="fas fa-bolt fa-2x" style="position: relative; top: 62px; left: 130;"></i>
+        </div>
+        <div>
+            <i class="fas fa-bolt fa-2x" style="position: relative; top: 32px; left: 985;"></i> 
+        </div>
+        <div class="counter1">
+              <form style="position: absolute; top: 840px; left: 265px;">
+                    <label>ROUND ONE:</label><br>
+                    <input id="round1counter" type=number min=0  value="0"><br>
+                    <label>ROUND TWO:</label><br>
+                    <input id="round2counter" type=number min=0  value="0"><br>
+                    <label> ROUND THREE:</label><br>
+                    <input id="round3counter" type=number min=0  value="0">
+            </form>
+            <div class="buttonGroup">
+            <div>
+                <button class="btnup1" onclick="increment1()" style="position: relative; top:67; left: 433"> <i class="fas fa-angle-up fa-lg" style="position: relative; top: 0; left: 0;"></i> </button> 
+            </div>
+            <div>
+                <button class="btnup2" onclick="increment2()" style="position: relative; top: 92; left: 433;"> <i class="fas fa-angle-up fa-lg" style="position: relative; top: 0; left: 0;"></i> </button>
+            </div>
+            <div>
+                <button class="btnup3" onclick="increment3()" style="position: relative; top: 117; left: 433;"><i class="fas fa-angle-up fa-lg" style="position: relative; top: 0; left: 0;"></i> </button>
+            </div>
+            <div>
+                <button class="btndown1" onclick="decrement1()" style="position: relative; top:36; left: 433;"><i class="fas fa-angle-down fa-lg" style="position: relative; top:0; left: 0;"></i> </button>
+            </div>
+            <div>
+                <button class="btndown2" onclick="decrement2()" style="position: relative; top:60; left: 433;"><i class="fas fa-angle-down fa-lg" style="position: relative; top:0; left: 0;"></i> </button>
+            </div>
+            <div>
+                <button class="btndown3" onclick="decrement3()" style="position: relative; top:85; left: 433;"><i class="fas fa-angle-down fa-lg" style="position: relative; top:0; left: 0;"></i></button>
+            </div>
+            
+            
+            <div>
+                <button class="btnup4" onclick="increment4()" style="position: relative; top:-35; left: 1291"> <i class="fas fa-angle-up fa-lg" style="position: relative; top: 0; left: 0;"></i> </button> 
+            </div>
+            <div>
+                <button class="btnup5" onclick="increment5()" style="position: relative; top: -10; left: 1291;"> <i class="fas fa-angle-up fa-lg" style="position: relative; top: 0; left: 0;"></i> </button>
+            </div>
+            <div>
+                <button class="btnup6" onclick="increment6()" style="position: relative; top: 15; left: 1291;"><i class="fas fa-angle-up fa-lg" style="position: relative; top: 0; left: 0;"></i> </button>
+            </div>
+            <div>
+                <button class="btndown4" onclick="decrement4()" style="position: relative; top:-67; left: 1291;"><i class="fas fa-angle-down fa-lg" style="position: relative; top:0; left: 0;"></i> </button>
+            </div>
+            <div>
+                <button class="btndown5" onclick="decrement5()" style="position: relative; top:-42; left: 1291;"><i class="fas fa-angle-down fa-lg" style="position: relative; top:0; left: 0;"></i> </button>
+            </div>
+            <div>
+                <button class="btndown6" onclick="decrement6()" style="position: relative; top:-18; left: 1291;"><i class="fas fa-angle-down fa-lg" style="position: relative; top:0; left: 0;"></i></button>
+                </div> </div>
+            <form style="position: absolute; top: 840px; right: 235px;">
+                    <label>ROUND ONE:</label><br>
+                    <input id="round1counter2" type=number min=0 value="0"><br>
+                    <label>ROUND TWO:</label><br>
+                    <input id="round2counter2" type=number min=0 value="0"><br>
+                    <label> ROUND THREE:</label><br>
+                    <input id="round3counter2" type=number min=0 value="0">
+            </form>
+        </div>
+    </div>
+    <script>
+         function increment1(){
+             document.getElementById("round1counter").stepUp();
+         }
+         function increment2(){
+             document.getElementById("round2counter").stepUp();
+         }
+         function increment3(){
+             document.getElementById("round3counter").stepUp();
+         }   
+         function increment4(){
+             document.getElementById("round1counter2").stepUp();
+         }   
+        function increment5(){
+             document.getElementById("round2counter2").stepUp();
+         }   
+        function increment6(){
+             document.getElementById("round3counter2").stepUp();
+         }   
+        function decrement1(){
+            document.getElementById("round1counter").stepDown();
+        }
+        function decrement2(){
+            document.getElementById("round2counter").stepDown();
+        }
+        function decrement3(){
+            document.getElementById("round3counter").stepDown();
+        }
+        function decrement4(){
+            document.getElementById("round1counter2").stepDown();
+        }
+        function decrement5(){
+            document.getElementById("round2counter2").stepDown();
+        }
+        function decrement6(){
+            document.getElementById("round3counter2").stepDown();
+        }
+    </script>    
+    </body>
+    
+</html>
